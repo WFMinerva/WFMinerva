@@ -52,28 +52,39 @@ The project provides separate editions for compatibility-focused play and fuller
 ### One-Click Navy Builder / 一键建设海军
 
 [![Steam Workshop](https://img.shields.io/badge/Steam-Workshop-1b2838?logo=steam&logoColor=white)](https://steamcommunity.com/sharedfiles/filedetails/?id=3765832437)
+[![GitHub Repository](https://img.shields.io/badge/GitHub-Source-181717?logo=github&logoColor=white)](https://github.com/WFMinerva/hoi4-one-click-navy)
 
-Adds player-only decisions that instantly construct preset fleets for supported countries.
+Adds player-only decisions that instantly construct preset fleets and advanced warships for single-player sandbox campaigns.
 
-Current content includes:
+The current stable version is **v6.3**. National content includes:
 
-- A modernized main fleet for the Republic of China
-- A commemorative reconstruction of the Beiyang Fleet
-- An early People's Liberation Army Navy fleet for Communist China
-- A preset fleet for Manchukuo
-- Required naval technologies, ship designs, and carrier aircraft where applicable
+- A modernized main fleet and a commemorative Beiyang Fleet for the Republic of China
+- An early People's Liberation Army Navy fleet and a modernized main fleet for Communist China
+- A preset Japanese-style fleet for Manchukuo
 
-为支持国家增加玩家专用的一键舰队建设决议，当前内容包括：
+v6.3 also introduces universal player-only naval construction decisions for:
 
-- 中华民国现代化主力舰队
-- 北洋水师纪念舰队
-- 中国共产党早期人民海军舰队
-- 满洲国预设舰队
-- 相应的海军科技、舰船设计及舰载机
+- British-style advanced destroyers
+- Italian-style advanced light cruisers
+- German Type XXI advanced submarines
 
-The decisions are unavailable to the AI and are designed for single-player sandbox use.
+The AI cannot use these decisions. Technologies, ship presets, and delivered ships belong to the country executing the decision; the design-reference countries are not modified.
 
-所有相关决议均仅供玩家使用，AI 不会执行，主要面向单人沙盒游玩。
+本项目为单人沙盒战役提供玩家专用决议，可立即建设预设舰队和先进舰艇。
+
+当前稳定版本为 **v6.3**。国家专属内容包括：
+
+- 中华民国现代化主力舰队与北洋水师纪念舰队
+- 中国共产党早期人民海军舰队与现代化主力舰队
+- 满洲国日式预设舰队
+
+v6.3 同时加入三项全国家玩家通用海军建设决议：
+
+- 英国风格先进驱逐舰
+- 意大利风格先进轻巡洋舰
+- 德国 XXI 型先进潜艇
+
+AI 不会执行这些决议。所需科技、舰船预设和交付舰艇均归执行国，设计参考国不会因此受到修改。
 
 ---
 
@@ -152,7 +163,8 @@ My projects generally follow these principles:
 - [Steam Profile / Steam 个人主页](https://steamcommunity.com/profiles/76561198024627348)
 - [Hearts of Iron IV Workshop Items / 我的钢铁雄心4工坊作品](https://steamcommunity.com/profiles/76561198024627348/myworkshopfiles/?appid=394360)
 - [Character Biographies / 钢四人物小传](https://steamcommunity.com/sharedfiles/filedetails/?id=3736859636)
-- [One-Click Navy Builder / 一键建设海军](https://steamcommunity.com/sharedfiles/filedetails/?id=3765832437)
+- [One-Click Navy Builder / 一键建设海军 — Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3765832437)
+- [One-Click Navy Builder / 一键建设海军 — GitHub Source](https://github.com/WFMinerva/hoi4-one-click-navy)
 - [One-Click Sandbox Start / 开局一键爽玩](https://steamcommunity.com/sharedfiles/filedetails/?id=3767025052)
 - [ToyBox Simplified Chinese Localization / ToyBox 简体中文本地化 PR #63](https://github.com/xADDBx/ToyBox-RogueTrader/pull/63)
 
