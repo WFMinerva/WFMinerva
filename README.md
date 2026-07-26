@@ -54,37 +54,31 @@ The project provides separate editions for compatibility-focused play and fuller
 [![Steam Workshop](https://img.shields.io/badge/Steam-Workshop-1b2838?logo=steam&logoColor=white)](https://steamcommunity.com/sharedfiles/filedetails/?id=3765832437)
 [![GitHub Repository](https://img.shields.io/badge/GitHub-Source-181717?logo=github&logoColor=white)](https://github.com/WFMinerva/hoi4-one-click-navy)
 
-Adds player-only decisions that instantly construct preset fleets and advanced warships for single-player sandbox campaigns.
+A general-purpose naval sandbox mod for **Hearts of Iron IV**.
 
-The current stable version is **v6.3**. National content includes:
+It gives player-controlled countries that meet the decision requirements a general framework for immediately establishing a navy or adding advanced warships, without repeatedly using the ship designer or waiting through long construction queues.
 
-- A modernized main fleet and a commemorative Beiyang Fleet for the Republic of China
-- An early People's Liberation Army Navy fleet and a modernized main fleet for Communist China
-- A preset Japanese-style fleet for Manchukuo
+The project combines two complementary types of content:
 
-v6.3 also introduces universal player-only naval construction decisions for:
+- Universal naval construction options that can be expanded with additional ship classes and design styles
+- Dedicated fleet packages for countries or historical themes that benefit from a more distinctive setup
 
-- British-style advanced destroyers
-- Italian-style advanced light cruisers
-- German Type XXI advanced submarines
+Ship designs may draw inspiration from major naval powers, but the reference country provides only the design style. Technologies, ship presets, and delivered ships belong to the country executing the decision, and the reference country is not modified.
 
-The AI cannot use these decisions. Technologies, ship presets, and delivered ships belong to the country executing the decision; the design-reference countries are not modified.
+The decisions are unavailable to the AI and are intended for single-player sandbox use rather than game balance. Future updates expand the available fleets, ship classes, and design choices while remaining within this general-purpose naval construction framework.
 
-本项目为单人沙盒战役提供玩家专用决议，可立即建设预设舰队和先进舰艇。
+这是一个面向《钢铁雄心4》的通用海军沙盒 MOD。
 
-当前稳定版本为 **v6.3**。国家专属内容包括：
+满足决议条件的玩家国家可以通过相关功能立即建立海军或补充先进舰艇，不必重复操作舰船设计器，也无需等待漫长的建造队列。
 
-- 中华民国现代化主力舰队与北洋水师纪念舰队
-- 中国共产党早期人民海军舰队与现代化主力舰队
-- 满洲国日式预设舰队
+项目包含两类相互补充的内容：
 
-v6.3 同时加入三项全国家玩家通用海军建设决议：
+- 可持续扩展舰种和设计风格的全国家通用海军建设功能
+- 面向特定国家或历史主题、具有独立特色的专属舰队方案
 
-- 英国风格先进驱逐舰
-- 意大利风格先进轻巡洋舰
-- 德国 XXI 型先进潜艇
+舰船设计可以参考不同海军强国的技术风格，但参考国只提供设计来源。所需科技、舰船预设和交付舰艇均归执行决议的国家，参考国本身不会因此受到修改。
 
-AI 不会执行这些决议。所需科技、舰船预设和交付舰艇均归执行国，设计参考国不会因此受到修改。
+所有相关决议均仅供玩家使用，AI 不会执行；项目服务于单人沙盒体验，不追求游戏平衡。后续更新会继续增加舰队、舰种和设计选择，但始终保持在“通用海军建设工具”这一项目范畴内。
 
 ---
 
