@@ -1,14 +1,20 @@
-<h1 align="center">HAPPYADONG</h1>
+<h1 align="center">Dong CHEN</h1>
 
 <p align="center">
-  Hearts of Iron IV Mod Creator · Historical Biographies · Quality-of-Life Tools · Simplified Chinese Localization
+  AI Tools for Daily Work · DeepSeek Harness Plugins · Hearts of Iron IV Mods
 </p>
 
 <p align="center">
-  《钢铁雄心4》MOD 作者｜历史人物小传｜便利性与沙盒工具｜简体中文本地化
+  AI 工具与自动化｜DeepSeek Harness 插件｜《钢铁雄心4》MOD
 </p>
 
 <p align="center">
+  <a href="https://github.com/WFMinerva">
+    <img src="https://img.shields.io/badge/GitHub-WFMinerva-181717?logo=github&logoColor=white" alt="GitHub Profile">
+  </a>
+  <a href="https://www.npmjs.com/package/dsh-turn-cost">
+    <img src="https://img.shields.io/badge/npm-dsh--turn--cost-cb3837?logo=npm&logoColor=white" alt="dsh-turn-cost on npm">
+  </a>
   <a href="https://steamcommunity.com/profiles/76561198024627348">
     <img src="https://img.shields.io/badge/Steam-HAPPYADONG-1b2838?logo=steam&logoColor=white" alt="Steam Profile">
   </a>
@@ -21,11 +27,28 @@
 
 ## About Me / 关于我
 
-I create and maintain mods for **Hearts of Iron IV**, focusing on historical character biographies, single-player quality-of-life improvements, and sandbox-oriented tools.
+I build **AI tools and automation for daily work and research** — cost-tracking plugins for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) and local, privacy-first personal systems.
 
-I also contribute Simplified Chinese localization to open-source game mod projects.
+我主要为日常工作与研究打造 **AI 工具与自动化**——面向 DeepSeek Harness 的插件、以及本地优先、注重隐私的个人系统。
 
-我主要制作和维护《钢铁雄心4》MOD，方向包括历史人物小传、单人便利性改进和沙盒化工具，同时参与开源游戏 MOD 的简体中文本地化工作。
+I also create and maintain mods for **Hearts of Iron IV**, focusing on historical character biographies, single-player quality-of-life improvements, and sandbox-oriented tools, and contribute Simplified Chinese localization to open-source game mod projects.
+
+同时我也制作和维护《钢铁雄心4》MOD（历史人物小传、单人便利性改进、沙盒化工具），并参与开源游戏 MOD 的简体中文本地化工作。
+
+---
+
+## AI Tools / AI 工具
+
+### dsh-turn-cost
+
+[![GitHub Repository](https://img.shields.io/badge/GitHub-Source-181717?logo=github&logoColor=white)](https://github.com/WFMinerva/dsh-turn-cost)
+[![npm](https://img.shields.io/badge/npm-dsh--turn--cost-cb3837?logo=npm&logoColor=white)](https://www.npmjs.com/package/dsh-turn-cost)
+
+A [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) web plugin that shows **how much one turn of conversation really cost**, right under every assistant reply — in CNY at the official DeepSeek peak/off-peak rates, with token count and cache-hit ratio.
+
+Fully local: reads provider-reported usage from local session logs, zero telemetry, never touches API keys.
+
+DeepSeek Harness 网页插件：在每条 AI 回复下方显示**这一轮对话的真实花费**——按官方峰谷价折算人民币，附 token 量与缓存命中率。完全本地运行：读取本机会话日志中 provider 上报的用量，零上报、不碰任何 API 密钥。
 
 ---
 
@@ -140,6 +163,7 @@ My projects generally follow these principles:
 - Keep player-only sandbox tools unavailable to the AI
 - Test releases in game before treating them as stable versions
 - Prefer historically grounded writing over invented details
+- For AI tools: stay fully local by default, never touch credentials, and keep everything auditable
 
 我的项目通常遵循以下原则：
 
@@ -149,11 +173,14 @@ My projects generally follow these principles:
 - 沙盒强化功能仅供玩家使用，不交给 AI
 - 经实机测试后再将版本视为稳定基准
 - 历史人物文本以公开史料为依据，不随意编造
+- AI 工具默认完全本地运行、不碰任何凭证、全程可审计
 
 ---
 
 ## Links / 相关链接
 
+- [dsh-turn-cost / 每轮花费插件 — GitHub](https://github.com/WFMinerva/dsh-turn-cost)
+- [dsh-turn-cost — npm](https://www.npmjs.com/package/dsh-turn-cost)
 - [Steam Profile / Steam 个人主页](https://steamcommunity.com/profiles/76561198024627348)
 - [Hearts of Iron IV Workshop Items / 我的钢铁雄心4工坊作品](https://steamcommunity.com/profiles/76561198024627348/myworkshopfiles/?appid=394360)
 - [Character Biographies / 钢四人物小传](https://steamcommunity.com/sharedfiles/filedetails/?id=3736859636)
@@ -165,9 +192,9 @@ My projects generally follow these principles:
 ---
 
 <p align="center">
-  Historical context · Practical tools · Careful localization
+  AI tools · Historical context · Practical tools · Careful localization
 </p>
 
 <p align="center">
-  历史文本 · 实用工具 · 审慎汉化
+  AI 工具 · 历史文本 · 实用工具 · 审慎汉化
 </p>
