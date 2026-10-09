@@ -1,200 +1,175 @@
-<h1 align="center">Dong CHEN</h1>
+# Dong CHEN | WFMinerva
 
-<p align="center">
-  AI Tools for Daily Work · DeepSeek Harness Plugins · Hearts of Iron IV Mods
-</p>
+**Thinking, Research, Building — with AI.**
 
-<p align="center">
-  AI 工具与自动化｜DeepSeek Harness 插件｜《钢铁雄心4》MOD
-</p>
-
-<p align="center">
-  <a href="https://github.com/WFMinerva">
-    <img src="https://img.shields.io/badge/GitHub-WFMinerva-181717?logo=github&logoColor=white" alt="GitHub Profile">
-  </a>
-  <a href="https://www.npmjs.com/package/dsh-turn-cost">
-    <img src="https://img.shields.io/badge/npm-dsh--turn--cost-cb3837?logo=npm&logoColor=white" alt="dsh-turn-cost on npm">
-  </a>
-  <a href="https://steamcommunity.com/profiles/76561198024627348">
-    <img src="https://img.shields.io/badge/Steam-HAPPYADONG-1b2838?logo=steam&logoColor=white" alt="Steam Profile">
-  </a>
-  <a href="https://github.com/xADDBx/ToyBox-RogueTrader/pull/63">
-    <img src="https://img.shields.io/badge/ToyBox-Official%20Chinese%20Localization-181717?logo=github&logoColor=white" alt="ToyBox Simplified Chinese Localization">
-  </a>
-</p>
+思想、研究与实践：探索普通人与 AI 协作的可能性。
 
 ---
 
-## About Me / 关于我
+## 关于我 | About Me
 
-I build **AI tools and automation for daily work and research** — cost-tracking plugins for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) and local, privacy-first personal systems.
+我是一名来自中国的社会科学与人文学科研究者，也是一名 AI 应用实践者。
 
-我主要为日常工作与研究打造 **AI 工具与自动化**——面向 DeepSeek Harness 的插件、以及本地优先、注重隐私的个人系统。
+我的学术背景是法学与哲学，我热爱历史、文学、游戏和技术，但并非职业程序员。
 
-I also create and maintain mods for **Hearts of Iron IV**, focusing on historical character biographies, single-player quality-of-life improvements, and sandbox-oriented tools, and contribute Simplified Chinese localization to open-source game mod projects.
+我关心的一个问题是：
 
-同时我也制作和维护《钢铁雄心4》MOD（历史人物小传、单人便利性改进、沙盒化工具），并参与开源游戏 MOD 的简体中文本地化工作。
+> 当人工智能使专业能力变得更加容易获得，一个人能够把自己的想法实现到什么程度？
 
----
+过去，我主要通过阅读、写作和研究来理解世界。现在，我也尝试通过 AI，把自己的想法变成软件、工具、自动化流程，以及能够长期积累和继续发展的研究项目。
 
-## AI Tools / AI 工具
+我并不打算把自己培养成一名全职软件工程师。对我而言，编程不是目的，解决问题才是目的。
 
-### dsh-turn-cost
+I'm a researcher and AI practitioner from China, with an academic background in law and philosophy and professional experience in public administration.
 
-[![GitHub Repository](https://img.shields.io/badge/GitHub-Source-181717?logo=github&logoColor=white)](https://github.com/WFMinerva/dsh-turn-cost)
-[![npm](https://img.shields.io/badge/npm-dsh--turn--cost-cb3837?logo=npm&logoColor=white)](https://www.npmjs.com/package/dsh-turn-cost)
-
-A [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) web plugin that shows **how much one turn of conversation really cost**, right under every assistant reply — in CNY at the official DeepSeek peak/off-peak rates, with token count and cache-hit ratio.
-
-Fully local: reads provider-reported usage from local session logs, zero telemetry, never touches API keys.
-
-DeepSeek Harness 网页插件：在每条 AI 回复下方显示**这一轮对话的真实花费**——按官方峰谷价折算人民币，附 token 量与缓存命中率。完全本地运行：读取本机会话日志中 provider 上报的用量，零上报、不碰任何 API 密钥。
+My interests span philosophy, history, literature, games, and technology. Rather than pursuing software engineering as a profession, I explore how people from other disciplines can use AI to turn ideas into useful, verifiable, and maintainable systems.
 
 ---
 
-## Featured Projects / 主要作品
+## 我的工作思路 | How I Work
 
-### Character Biographies / 钢四人物小传
+### 1. 从问题出发，而不是从技术出发
 
-[![Steam Workshop](https://img.shields.io/badge/Steam-Workshop-1b2838?logo=steam&logoColor=white)](https://steamcommunity.com/sharedfiles/filedetails/?id=3736859636)
+*Problem first, technology second.*
 
-Adds historical biographies to national leaders, advisors, army commanders, naval commanders, scientists, and other characters in **Hearts of Iron IV**.
+我通常从一个不够清晰的愿望开始。
 
-Hover over a character portrait in the game to read their biography and learn about their political position, military career, and historical background.
+我希望完成什么？现有方法为什么不够好？理想的结果是什么？我能接受哪些成本，又有哪些不能突破的底线？
 
-为《钢铁雄心4》的国家领袖、顾问、陆军将领、海军将领、科学家及其他人物补充悬浮人物小传。
+我希望 AI 不只是执行指令，还能帮助我发现自己没有意识到的问题、隐藏的代价，以及更好的实现路线。
 
-在游戏中将鼠标移动到人物头像上，即可查看其生平、政治立场、军事经历和历史背景。
+明确问题和成功标准，比立即开始编写代码重要。
 
-The project provides separate editions for compatibility-focused play and fuller vanilla coverage.
+### 2. 优先复用，而不是重新发明
 
-项目根据使用环境提供轻量兼容版和原版全量版，在人物覆盖范围与兼容性之间作出不同取舍。
+*Reuse before reinventing.*
 
----
+面对一个需求，我首先希望知道：别人是否已经解决过？有没有成熟的工具、开源项目、工程规范或者现成工作流？
 
-### One-Click Navy Builder / 一键建设海军
+我更愿意通过组合、适配和少量修改来实现目标，而不是为了满足每个新需求，都从头开发一套系统。
 
-[![Steam Workshop](https://img.shields.io/badge/Steam-Workshop-1b2838?logo=steam&logoColor=white)](https://steamcommunity.com/sharedfiles/filedetails/?id=3765832437)
-[![GitHub Repository](https://img.shields.io/badge/GitHub-Source-181717?logo=github&logoColor=white)](https://github.com/WFMinerva/hoi4-one-click-navy)
+尽可能复用成熟成果，只为真实缺口增加复杂性。
 
-A general-purpose naval sandbox mod for **Hearts of Iron IV**.
+### 3. AI 负责执行，人负责判断
 
-It gives player-controlled countries that meet the decision requirements a general framework for immediately establishing a navy or adding advanced warships, without repeatedly using the ship designer or waiting through long construction queues.
+*Delegate execution, retain judgment.*
 
-The project combines two complementary types of content:
+我尝试让 AI Agent 承担检索、分析、编程、测试、文档维护以及多步骤任务，减少人类逐条指挥的负担。
 
-- Universal naval construction options that can be expanded with additional ship classes and design styles
-- Dedicated fleet packages for countries or historical themes that benefit from a more distinctive setup
+但授权执行并不等于授权判断。
 
-Ship designs may draw inspiration from major naval powers, but the reference country provides only the design style. Technologies, ship presets, and delivered ships belong to the country executing the decision, and the reference country is not modified.
+我负责提出目标、确定边界、衡量价值和验收结果。AI 可以提出方案，也可以质疑我的判断，但不能以自己的输出代替事实证据和最终验收。
 
-The decisions are unavailable to the AI and are intended for single-player sandbox use rather than game balance. Future updates expand the available fleets, ship classes, and design choices while remaining within this general-purpose naval construction framework.
+尤其在学术研究中，找到文献不等于理解文献，生成论证不等于论证成立。
 
-这是一个面向《钢铁雄心4》的通用海军沙盒 MOD。
+### 4. 让成果能够验证、接续和维护
 
-满足决议条件的玩家国家可以通过相关功能立即建立海军或补充先进舰艇，不必重复操作舰船设计器，也无需等待漫长的建造队列。
+*Build for verification and continuity.*
 
-项目包含两类相互补充的内容：
+我逐渐发现，使用 AI 完成一次任务并不困难，困难的是让成果在下一次使用时仍然可靠。
 
-- 可持续扩展舰种和设计风格的全国家通用海军建设功能
-- 面向特定国家或历史主题、具有独立特色的专属舰队方案
+因此，我越来越重视：
 
-舰船设计可以参考不同海军强国的技术风格，但参考国只提供设计来源。所需科技、舰船预设和交付舰艇均归执行决议的国家，参考国本身不会因此受到修改。
+- **可验证**：重要事实有来源，关键功能有测试，结果能够实际检查。
+- **可追溯**：知道 AI 做过什么、修改了什么、为什么修改。
+- **可接续**：项目状态、历史决策和未完成问题不只存在于聊天记录里。
+- **可维护**：新功能不应无故破坏旧功能，改动应当控制范围和复杂度。
+- **可迁移**：尽可能不依赖某一个模型、某一段对话或某一台电脑。
 
-所有相关决议均仅供玩家使用，AI 不会执行；项目服务于单人沙盒体验，不追求游戏平衡。后续更新会继续增加舰队、舰种和设计选择，但始终保持在“通用海军建设工具”这一项目范畴内。
-
----
-
-### One-Click Sandbox Start / 开局一键爽玩
-
-[![Steam Workshop](https://img.shields.io/badge/Steam-Workshop-1b2838?logo=steam&logoColor=white)](https://steamcommunity.com/sharedfiles/filedetails/?id=3767025052)
-
-A one-click sandbox setup for the 1936 campaign.
-
-It consolidates a large number of repetitive setup operations into player-only decisions, including technologies, doctrines, appointments, military industrial organizations, equipment designs, division templates, construction, army deployment, and equipment stockpiles.
-
-这是一个面向 1936 年剧本的开局沙盒工具。
-
-它通过玩家专用决议，将科技、学说、人事任命、军工机构、装备设计、师级编制、全国建设、部队部署和装备库存等大量重复操作集中处理，减少控制台命令和手动配置。
-
-Originally developed for Communist China, the project has since been expanded into a broader multi-country version.
-
-该项目最初以中国共产党为基础开发，现已扩展为适用于更多国家的通用版本。
-
-The mod does not pursue game balance. Its purpose is to provide a fast, powerful, and highly customizable sandbox starting point.
-
-本 MOD 不以游戏平衡为目标，而是提供快速、强力且便于继续自定义的沙盒开局。
+我的目标不是建立一套越来越庞大的 AI 管理制度，而是让必要的规则成为工作的一部分，同时避免为维护系统而维护系统。
 
 ---
 
-## Localization Contributions / 本地化贡献
+## 我正在探索的方向 | Current Explorations
 
-### ToyBox for Warhammer 40,000: Rogue Trader
+### AI × 人文社会科学研究
 
-[![Pull Request](https://img.shields.io/badge/GitHub-PR%20%2363-181717?logo=github&logoColor=white)](https://github.com/xADDBx/ToyBox-RogueTrader/pull/63)
+探索 AI Agent 如何参与文献阅读、概念辨析、思想比较、论证重构、证据核验和长期学术写作。
 
-Contributed the official Simplified Chinese localization for **ToyBox 2.0.3**.
+我尤其关注人类研究者与 AI 如何围绕同一个问题持续合作，而不只是完成一次问答。
 
-- Reviewed 921 localization keys
-- Translated 713 interface strings
-- Preserved English fallback for developer-facing Patch Tool and infrastructure strings
-- Verified JSON structure and format placeholders
-- Tested the localization in game
-- Merged into the upstream repository through Pull Request #63
+### AI × 实际工作
 
-为《战锤40K：行商浪人》ToyBox 2.0.3 制作简体中文本地化。
+探索如何把 AI 应用于信息整理、文档处理、资料检索和日常工作流程，让非技术人员也能够建立适合自己的工具。
 
-- 审核本地化键共 921 项
-- 完成简体中文翻译 713 项
-- 开发者使用的 Patch Tool 和 Infrastructure 内容主动保留英文回退
-- 检查 JSON 结构及格式占位符
-- 完成游戏内实机测试
-- 通过 Pull Request #63 合并至上游官方仓库的开发分支
+### AI × 个人创造
+
+通过 AI 辅助开发游戏 MOD、实用插件和个人项目，探索自然语言能在多大程度上成为实现创意的有效入口。
+
+这些探索涉及不同领域，但背后是同一个问题：如何把一个人的知识、经验和判断，与人工智能的执行能力结合起来。
 
 ---
 
-## Development Principles / 制作原则
+## 一些实际作品 | Selected Work
 
-My projects generally follow these principles:
+### AI Research & Workflows
 
-- Preserve normal vanilla game progression whenever possible
-- Avoid unnecessary changes to unrelated countries or systems
-- Separate compatibility-oriented and full-featured editions when necessary
-- Keep player-only sandbox tools unavailable to the AI
-- Test releases in game before treating them as stable versions
-- Prefer historically grounded writing over invented details
-- For AI tools: stay fully local by default, never touch credentials, and keep everything auditable
+**PhD Research Workbench**（私有仓库）
 
-我的项目通常遵循以下原则：
+为博士论文搭建的 AI 研究工作台：以 Zotero 为文献库，引文须回到原文页面核对，区分原文、AI 概括与待核实判断，并通过仓库中的状态文件在不同模型、会话和电脑之间接续研究。仓库不公开，这里只介绍方法。
 
-- 尽可能不干扰原版游戏的正常进程
-- 避免修改无关国家和系统
-- 必要时分别提供兼容版与全量版
-- 沙盒强化功能仅供玩家使用，不交给 AI
-- 经实机测试后再将版本视为稳定基准
-- 历史人物文本以公开史料为依据，不随意编造
-- AI 工具默认完全本地运行、不碰任何凭证、全程可审计
+**Knowledge Video Workflow**（私有仓库）
+
+把口播稿制作成知识解说视频的工作流程，涵盖分镜、配图、配音、剪映工程和封面，用于我自己的视频创作。
+
+### AI Tools
+
+**dsh-turn-cost**
+
+一个用于展示 AI 对话实际 Token 消耗和费用的 DeepSeek Harness 插件。
+
+[GitHub](https://github.com/WFMinerva/dsh-turn-cost) · [npm](https://www.npmjs.com/package/dsh-turn-cost)
+
+### Game Mods & Creative Projects
+
+**HOI4 Character Biographies**
+
+为《钢铁雄心4》历史人物补充传记，以增加历史信息与游戏沉浸感。
+
+[Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3736859636)
+
+**HOI4 One-Click Navy**
+
+将游戏中的重复操作整合为便捷的海军建设功能。
+
+[Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3765832437) · [GitHub](https://github.com/WFMinerva/hoi4-one-click-navy)
+
+**HOI4 One-Click Sandbox**
+
+围绕玩家需求构建的一键沙盒开局工具。
+
+[Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3767025052)
+
+**cs2-real-map-toolkit**
+
+用真实地形和道路数据生成《城市：天际线 2》地图，并附带铺设铁路和车站的模组；文档中记录了已经确认行不通的方法。
+
+[GitHub](https://github.com/WFMinerva/cs2-real-map-toolkit)
+
+**ToyBox — Simplified Chinese Localization**
+
+为《战锤40K：行商浪人》ToyBox 项目贡献简体中文本地化，相关贡献已合并至上游项目。
+
+[Pull Request #63](https://github.com/xADDBx/ToyBox-RogueTrader/pull/63)
 
 ---
 
-## Links / 相关链接
+## 一个持续的问题 | An Ongoing Question
 
-- [dsh-turn-cost / 每轮花费插件 — GitHub](https://github.com/WFMinerva/dsh-turn-cost)
-- [dsh-turn-cost — npm](https://www.npmjs.com/package/dsh-turn-cost)
-- [Steam Profile / Steam 个人主页](https://steamcommunity.com/profiles/76561198024627348)
-- [Hearts of Iron IV Workshop Items / 我的钢铁雄心4工坊作品](https://steamcommunity.com/profiles/76561198024627348/myworkshopfiles/?appid=394360)
-- [Character Biographies / 钢四人物小传](https://steamcommunity.com/sharedfiles/filedetails/?id=3736859636)
-- [One-Click Navy Builder / 一键建设海军 — Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3765832437)
-- [One-Click Navy Builder / 一键建设海军 — GitHub Source](https://github.com/WFMinerva/hoi4-one-click-navy)
-- [One-Click Sandbox Start / 开局一键爽玩](https://steamcommunity.com/sharedfiles/filedetails/?id=3767025052)
-- [ToyBox Simplified Chinese Localization / ToyBox 简体中文本地化 PR #63](https://github.com/xADDBx/ToyBox-RogueTrader/pull/63)
+我不认为 AI 的意义只是让原本就懂技术的人工作得更快。
 
----
+我更感兴趣的是，它能否改变知识、专业技能与个人创造力之间的关系。
 
-<p align="center">
-  AI tools · Historical context · Practical tools · Careful localization
-</p>
+一个研究哲学的人能否建立自己的研究工具？一个普通用户能否设计和维护真正可用的软件？一个人能否借助多个 AI Agent，在不同领域持续推进长期项目？
 
-<p align="center">
-  AI 工具 · 历史文本 · 实用工具 · 审慎汉化
-</p>
+这些问题还没有确定的答案。
+
+这个 GitHub 账号记录的，就是我尝试寻找答案的过程。
+
+I believe the significance of AI goes beyond helping experienced developers work faster.
+
+I'm interested in whether AI can change the relationship between knowledge, specialized skills, and individual creative agency.
+
+Can a philosopher build research tools? Can a non-programmer design and maintain useful software? Can a person collaborate with AI agents on meaningful, long-term projects across disciplines?
+
+This GitHub profile documents my attempts to explore these questions.
